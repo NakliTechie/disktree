@@ -1420,7 +1420,7 @@ dependencies = [
 
 [[package]]
 name = "disktree-app"
-version = "0.10.1"
+version = "0.10.2"
 dependencies = [
  "anyhow",
  "disktree-core",
@@ -1434,7 +1434,7 @@ dependencies = [
 
 [[package]]
 name = "disktree-cli"
-version = "0.10.1"
+version = "0.10.2"
 dependencies = [
  "anyhow",
  "disktree-core",
@@ -1444,7 +1444,7 @@ dependencies = [
 
 [[package]]
 name = "disktree-core"
-version = "0.10.1"
+version = "0.10.2"
 dependencies = [
  "chrono",
  "rayon",
@@ -5890,9 +5890,9 @@ dependencies = [
 
 [[package]]
 name = "rustls-webpki"
-version = "0.103.15"
+version = "0.103.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f3c3cf1d8b1e7d4927e2d154c3fcb02979afb9939629c62cd9048d4f07b60ac2"
+checksum = "4443b1b6d39d7c663139942cc4558262562d2c84123bb6282ef177009ca8b281"
 dependencies = [
  "ring",
  "rustls-pki-types",
@@ -6725,7 +6725,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "32497e9a4c7b38532efcdebeef879707aa9f794296a4f0244f6f69e9bc8574bd"
 dependencies = [
  "fastrand",
- "getrandom 0.4.3",
+ "getrandom 0.3.4",
  "once_cell",
  "rustix",
  "windows-sys 0.61.2",
@@ -8680,7 +8680,7 @@ checksum = "ec7a2a501ed189703dba8b08142f057e887dfc4b2cc4db2d343ac6376ba3e0b9"
 
 [[package]]
 name = "xtask"
-version = "0.10.1"
+version = "0.10.2"
 
 [[package]]
 name = "y4m"
